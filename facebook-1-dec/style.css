@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, red , yellow);
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 40px;
+    background-color:
+    red;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.right{
+    background-color: red;
+}
+div ul li{
+    display: inline-block;
+
+}
+ul li{
+    list-style-type: none;
+    margin: 0px 20px 0px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;;
+    padding: 0px;
+
+}
+
+.right{
+    display: inline-block;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+details.builds{
+    margin-right: 20px;
+    display: inline-block;
+    color: black;
+    font-style: bold;
+}
+details.help{
+    margin-right: 20px;
+    display: inline-block;
+    color: black;
+    font-style: bold;
+}
+aside{
+    height: 200px;
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    right: 0px;
+    text-align: center; 
+}
+aside div{
+    height: 40px;
+    background-color: red;
+    border-bottom: 2px solid;
+    padding: 0;
+    margin: 0px;
+}
+.big{
+    height: 300px;
+    width: 1130px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.small{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left: -1000px;
+    
+}
+.bottom{
+    background-color: white;
+    height: 60px;
+    width: 1130px;
+    position: absolute;
+    left: 20px;
+    top: 350px;
+}
+.naik{
+    margin-left: 250px;
+    
+}
+div a{
+    margin: 20px;
+    text-decoration: none;
+}
+.left-section{
+height: 100px;
+width: 400px;
+background-color: silver;
+position: absolute;
+left: 20px;
+border-radius: 20px;
+bottom: 40px;
+box-shadow: 20px 20px 60px black,inset -20px -20px 60px black;
+}
+.right-section{
+height: 100px;
+width: 750px;
+background-color: silver;
+position: absolute;
+right: 40px;
+bottom: 40px;
+border-radius: 20px;
+box-shadow: 20px 20px 60px magenta,inset -20px -20px 60px magenta;
+}
+
+
+
+
