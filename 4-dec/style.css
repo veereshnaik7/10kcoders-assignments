@@ -1,0 +1,254 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+header {
+  position: absolute;
+  height: 80px;
+  background-color: silver;
+  width: 100%;
+}
+nav {
+}
+#home {
+  padding-top: 100px;
+}
+div.logo {
+  display: inline-block;
+  line-height: 80px;
+  font-size: 30px;
+  margin-left: 50px;
+  color: green;
+  text-shadow: 2px 2px 6px currentColor, -2px -2px 6px currentColor;
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: green;
+  text-shadow: 2px 2px 6px currentColor, -2px -2px 6px currentColor;
+}
+#home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+}
+div.left {
+  height: 50vh;
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.hello {
+  background-color: black;
+  display: inline-block;
+  color: whitesmoke;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+#home h1 {
+  color: magenta;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 10px currentColor, -2px -2px 10px currentColor;
+}
+div p {
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 4px;
+  color: brown;
+}
+div.right {
+  height: 50vh;
+  width: 40%;
+}
+img {
+  height: 40vh;
+  margin-left: 100px;
+  margin-top: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+#about {
+  margin-top: 40px;
+  text-indent: 30px;
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 4px;
+  color: brown;
+  display: block;
+}
+#about {
+  text-align: center;
+}
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  color: aquamarine;
+}
+#about p {
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-right: 40px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 15px;
+  text-transform: capitalize;
+  word-spacing: 4px;
+  color: brown;
+  display: block;
+}
+ol {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#services ol li {
+  text-transform: capitalize;
+  color: magenta;
+}
+address {
+  margin: 20px;
+  margin-left: 60px;
+}
+.add {
+  text-align: center;
+}
+.add a img {
+  text-align: center;
+  margin-top: 0px;
+  height: 40px;
+  opacity: 1;
+}
+@media screen and (max-width: 426px) and (min-width: 320px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    background-color: silver;
+    height: 100vh;
+    width: 100%;
+  }
+  header {
+    position: fixed;
+    height: 80px;
+    background-color: silver;
+  }
+  div.logo {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: yellow;
+    text-shadow: 2px 2px 6px currentColor, -2px -2px 6px currentColor;
+  }
+  nav ul {
+    float: right;
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: green;
+    text-shadow: 2px 2px 6px currentColor, -2px -2px 6px currentColor;
+  }
+  #home {
+    display: block;
+    width: 100%;
+  }
+  div.right {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 100px;
+    
+  }
+  img {
+    height: 40vh;
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid;
+    margin-left: 90px;
+  }
+  #home .left {
+    display: block;
+    text-align: center;
+  }
+  .hello {
+    margin-top: 0px;
+    background-color: black;
+    display: inline-block;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  #home h1 {
+    margin-top: 20px;
+    color: blue;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px currentColor, -1px -1px 2px currentColor;
+  }
+  #home p{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    color: blue;
+    font-size: 15px;
+  }
+  #about {
+    margin-top: 300px;
+  }
+  ol {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  #services ol li {
+    text-transform: capitalize;
+    color: magenta;
+  }
+  .add{
+    display: block;
+  }
+  address{
+    color: red;
+    text-align: left;
+    font-size: 20px;
+  }
+  .add a{
+    display: inline-block;
+    margin-left: 0px;
+
+  }
+
+  
+
+  
+  
+  
+}
