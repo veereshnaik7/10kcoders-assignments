@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    animation: center 2s linear 0s infinite forwards;
+    animation-play-state: 
+    paused;
+    color: white;
+    
+}
+
+
+
+
+@keyframes center {
+    0%{
+        transform: rotate(0deg);
+        border-top: 5px solid red;
+    }
+    50%{
+        transform: rotate(180deg);
+        border-top: 5px solid white;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-top: 5px solid green;
+    }
+    
+}

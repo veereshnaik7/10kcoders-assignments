@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(40deg, magenta,yellow,pink);
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px red , -10px -10px 40px red;
+}
+div:hover{
+    transform: translate(100px ,-100px);
+    transition: 2s;
+    
+}
