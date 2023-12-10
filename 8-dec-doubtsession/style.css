@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #C4D8E2;
+
+    height: 100vh;
+    width: 100%;
+}
+header{
+    box-shadow: 2px 2px 5px #000000;
+    z-index: 3;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #007AA5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div{
+    margin-left: 100px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    flex-grow: 1;
+}
+nav li{
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+nav {
+    display: flex;
+    margin-right: 60px;
+}
+section{
+    top: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    border-radius: 15px;
+    height: 80vh;
+    box-shadow: 5px 5px 20px #708090,-5px -5px 20px currentColor;
+    backdrop-filter: blur(20px);
+}
+section h2{
+    margin: 50px 0px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+section p{
+    margin: 20px 20px;
+    text-align: justify;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    display: none;
+    
+}
+#check{
+    display: none;
+
+}
+nav ul{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 426px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: #EBECF0;
+        height: 100vh;
+        width: 100%;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        background-color: #708090;
+        box-shadow: 2px 2px 5px #000000;
+        position: fixed;
+
+    
+    }
+    header div{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+    section{
+        top: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section img{
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px #708090,-5px -5px 20px currentColor;
+        height: 70vh;
+        width: 280px;
+        box-shadow: 5px 5px 20px #007AA5;
+        backdrop-filter: blur(20px);
+    }
+    section h2{
+        margin: 50px 0px 0px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    section p{
+        margin: 30px 30px;
+        text-align: justify;
+    }
+    .checkbtn{
+        font-size: 20px;
+        color: white;
+        display: block;
+        font-size: 20px;
+        
+        
+    }
+    nav ul{
+        display: flex;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        position: fixed;
+        top: -250px;
+        left: 0px;
+        height: 40vh;
+        width: 100%;
+        background-color: #708090;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul li {
+        margin-top: 20px;
+    }
+    #check{
+        display: none;
+    
+    }
+    #check:checked ~ ul {
+        top: 80px;
+    }
+   
+
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: #007AA5;
+        height: 100vh;
+        width: 100%;
+    }
+    header{
+        height: 80px;
+        width: 100%;
+        background-color: #708090;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 2px 2px 5px #000000;
+    }
+    header div{
+        margin-left: 40px;
+        color: white;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    nav li{
+        list-style-type: none;
+    }
+    nav li a{
+        text-decoration: none;
+        color: antiquewhite;
+        margin-right: 20px;
+        font-size: 20px;
+    
+    }
+    nav{
+        display: flex;
+        margin-right: 50px;
+    
+    }
+    section{
+        top: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section img{
+        border-radius: 15px;
+        height: 80vh;
+        box-shadow: 5px 5px 20px blanchedalmond,-5px -5px 20px blanchedalmond;
+        backdrop-filter: blur(20px);
+    }
+    section h2{
+        text-transform: capitalize;
+        margin: 50px 0px 0px;
+        font-size: 20px;
+    }
+    section p{
+        margin: 20px 20px;
+        text-align: justify;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: left;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    
+}
+
