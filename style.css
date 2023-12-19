@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+    border: 2px solid gold;
+  width: 60%;
+  margin-top: 30px;
+  background-color: #dfe0e5;
+  margin-bottom: 30px;
+}
+main .top {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+main .top img {
+  margin-left: 40px;
+  height: 100px;
+  border-radius: 10px;
+}
+main .top .name {
+  margin-left: 40px;
+  text-transform: capitalize;
+  color: #215974;
+}
+main .top .name p {
+  margin-top: 10px;
+  color: black;
+}
+
+main .nav {
+  background-color: #555a69;
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .nav a {
+  color: gold;
+}
+main .profile {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main .profile h1 {
+  padding-top: 15px;
+  border-bottom: 2px solid;
+  color: #215974;
+}
+main .profile p{
+    margin-top: 10px;
+    text-align: justify;
+}
+main .education{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+main .education .left,main .education .right{
+    width: 45%;
+    box-shadow: 0px 0px 5px whitesmoke;
+    
+}
+main .education .left h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+main .education .left p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+main .education .left h1,main .education .right h1{
+    border-bottom: 2px solid;
+    color: #215974;
+    text-transform: capitalize;  
+}
+main .education .right{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+    
+}
+main .education .right p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+    color: gold;
+    background-color: #555a69;
+    display: inline-block;    
+}
+.lanauages-hobbies{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.lanauages-hobbies .languages,.lanauages-hobbies .hobbies{
+    width: 45%;
+    box-shadow: 0px 0px 5px whitesmoke;
+    margin-top: 10px;
+}
+.lanauages-hobbies .languages h1,.lanauages-hobbies .hobbies h1{
+    border-bottom: 2px solid;
+    color: #215974;
+    text-transform: capitalize;
+}
+.lanauages-hobbies .languages ul,.lanauages-hobbies .hobbies ul{
+    list-style-type: none;
+}
+.lanauages-hobbies .languages li,.lanauages-hobbies .hobbies li{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 10px 20px 0px;
+}
+.declaration{
+    margin: 20px 20px;
+}
+
+.declaration h1{
+    text-decoration: underline solid 2px #215974;
+    text-transform: capitalize;
+    color: #215974;
+}
+.declaration p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
