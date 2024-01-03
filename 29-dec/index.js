@@ -17,3 +17,8 @@ for (i = 0; i <= a.length - 1; i++) {
   b += "\n";
 }
 console.log(b);
+
+
+
+str="veeeresh    "
+console.log(String.toUPPERCASE(str))
