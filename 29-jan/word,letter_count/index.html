@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        input {
+            height: 30px;
+            width: 300px;
+            background-color: aquamarine;
+            border: 2px solid;
+            box-shadow: 0px 0px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding-left: 1rem;
+            
+        }
+
+        div {
+            margin-top: 1.5rem;
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        button {
+            background-color: purple;
+            padding: 10px;
+            border-radius: 1rem;
+            border: 2px solid;
+            color: white;
+        }
+        p{
+            margin-top: 2rem;
+           padding: 1em;
+            background-color: yellowgreen;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px;
+        }
+        button:hover{
+            box-shadow: 0px 0px 20px purple;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="text" name="text" placeholder="enter the statement">
+    <div id="div"><button onclick="wordCount()">count word</button>
+        <button onclick="lettercount()">count characters</button>
+    </div>
+
+
+    <script>
+
+        let flag=true;
+        function wordCount() {
+                if(flag){
+                    let wordCount=document.createElement("p")
+                    wordCount.setAttribute("id","para")
+                     wordCount.innerHTML=document.getElementById("text").value.split(" ").length
+                     
+                     document.getElementById("div").after(wordCount)
+                    document.getElementById("para").append("  is the word count")
+                    
+                }
+                else{
+                   document.getElementById("para").remove()
+                   
+                }
+                flag=!flag
+               
+            
+
+        }
+
+        function lettercount() {
+                if(flag){
+                    let wordCount=document.createElement("p")
+                    wordCount.setAttribute("id","para")
+                     wordCount.innerHTML=document.getElementById("text").value.split("").length
+                     
+                     document.getElementById("div").after(wordCount)
+                    document.getElementById("para").append("  is the letter count")
+                    
+                }
+                else{
+                  document.getElementById("para").remove()
+                   
+                }
+                flag=!flag
+               
+            
+
+        }
+        
+                
+    </script>
+
+</body>
+
+</html>
